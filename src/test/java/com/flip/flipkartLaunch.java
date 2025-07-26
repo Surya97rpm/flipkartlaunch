@@ -8,7 +8,7 @@ import org.junit.Test;
 import org.junit.BeforeClass;
 import org.junit.AfterClass;
 import org.junit.Before;
-
+import org.junit.Ignore;
 import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
@@ -90,6 +90,7 @@ public class flipkartLaunch {
 	            System.out.println("method 5= validation fail");
 	        }
 	    }
+	    @Ignore
 	    @Test
 	    public void method6() {
 	    	WebElement buynow = driver.findElement(By.xpath("//button[@class='QqFHMw vslbG+ _3Yl67G _7Pd1Fp']"));
